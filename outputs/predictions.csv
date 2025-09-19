@@ -1,0 +1,22 @@
+review,predicted_sentiment
+Coffee was excellent and staff was friendly.,Positive
+"Pizza was good, crust was perfect.",Positive
+"Loved the pizza, service was fast!",Positive
+"Sandwich was okay, nothing special.",Neutral
+Sandwich was fresh but slow service.,Positive
+"Sandwich was fresh, staff helpful.",Positive
+"Service was good, food tasty.",Positive
+Food was bland and late.,Negative
+Fries were soggy but burgers were good.,Positive
+The pizza was amazing and delivery was fast!,Positive
+Burgers were cold and tasteless.,Negative
+Food was okay but service was slow.,Neutral
+Pizza was amazing and hot!,Positive
+"Tacos were bland, service slow.",Negative
+"Sandwich was fresh, service was good.",Positive
+The chicken was overcooked and dry.,Negative
+"Loved the pizza, crust was perfect!",Positive
+"Great crust and cheese, really enjoyed.",Positive
+Chicken was too salty and overcooked.,Negative
+Fries were soggy and burger was dry.,Negative
+"Burger was tasty, fries soggy.",Positive
