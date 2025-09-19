@@ -1,39 +1,31 @@
+# 🍽️ Restaurant Review Sentiment Analyzer (Multi-Class)
 
-Restaurant Review Sentiment Analyzer (Multi-class)
+A complete **end-to-end NLP project** to classify restaurant reviews into **Negative**, **Neutral**, or **Positive** sentiments.  
+This project demonstrates data preprocessing, model training, evaluation, and deployment using **Streamlit**.
 
-Analyze customer reviews for restaurants to detect Positive, Neutral, and Negative sentiment using TF-IDF + Logistic Regression, fully local and interactive via Streamlit.
+---
 
-################################################################
+## Features
 
-Project Structure:
+✅ **Multi-Class Sentiment Classification** – Negative, Neutral, Positive  
+✅ **End-to-End Pipeline** – From raw dataset to predictions  
+✅ **Interactive Streamlit App** – Analyze reviews in real time  
+✅ **Evaluation Dashboard** – Accuracy, Classification Report, and Confusion Matrix  
+✅ **Modular Codebase** – Easy to extend or retrain with new data  
 
-restaurant_sentiment_local/
-│
+---
+
+## 📂 Project Structure
+
+```bash
+.
 ├── data/
-│   └── reviews.csv             # Sample review dataset
-│
-├── src/
-│   ├── data_loader.py          # Load & preprocess data
-│   ├── sentiment_model.py      # Train & save TF-IDF + Logistic Regression model
-│   ├── predict.py              # Predict sentiment and evaluate model
-│   └── utils.py                # Helper functions
-│
+│   └── restaurant_reviews.csv      # Raw dataset
 ├── outputs/
-│   ├── sentiment_model.pkl     # Saved model & vectorizer
-│   └── predictions.csv         # Optional saved predictions
-│
-├── app.py                      # Streamlit web app for interactive use
-├── main.py                     # Train & test pipeline (CLI)
-└── requirements.txt
-
-
-
-################################################
-Setup Instructions:
-
-python -m venv venv
-venv\Scripts\activate
-pip install --upgrade pip
-pip install -r requirements.txt
-python main.py
-streamlit run app.py
+│   └── sentiment_model.pkl         # Trained model + vectorizer
+├── src/
+│   ├── data_loader.py              # Data loading & preprocessing
+│   └── predict.py                  # Prediction & evaluation utilities
+├── app.py                          # Streamlit app entry point
+├── requirements.txt                # Dependencies
+└── README.md                       # Project documentation
